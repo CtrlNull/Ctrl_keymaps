@@ -76,7 +76,7 @@ sudo util/install_dependencies.sh // this will run apt upgrade
 ### Directions to load keymap
 1) To build .hex file
 ```
-make iris/rev2:[qmk-keymap_work_home]
+make iris/rev2:[qmk-keymap_work_home]:AVRDuDE
 ```
 
 2) To Flash
