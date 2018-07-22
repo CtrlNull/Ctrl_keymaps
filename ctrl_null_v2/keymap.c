@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LCTL, Z  , X  , C  , V  , B  ,HOME,     END , N  , M  ,COMM,DOT ,SLSH,RSFT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                       LGUI,LOWR,ENT ,         SPC ,RASE,LALT
+                       LGUI,LOWR, SPC,         ENT ,RASE,LALT
   //                  `----+----+----'        `----+----+----'
   ),
 
@@ -53,11 +53,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,----+----+----+----+----+----.              ,----+----+----+----+----+----.
      TILD,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,LPRN,RPRN,BSPC,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     RST , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  , 9  , 0  ,    ,
+     RST ,    ,    ,    ,    ,    ,                   ,LEFT,RGHT, UP ,DOWN,PLUS,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     DEL ,    ,LEFT,RGHT, UP ,LBRC,               RBRC, P4 , P5 , P6 ,PLUS,PIPE,
+     DEL ,    ,    ,    ,    ,LBRC,               RBRC,    ,    ,    ,    ,MINS,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
-     BL_S,    ,    ,    ,DOWN,LCBR,LPRN,     RPRN,RCBR, P1 , P2 , P3 ,MINS,    ,
+     BL_S,    ,    ,    ,    ,LCBR,LPRN,     RPRN,RCBR,    ,    ,    ,    ,PIPE,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
                            ,    ,DEL ,         DEL ,    , P0
   //                  `----+----+----'        `----+----+----'
